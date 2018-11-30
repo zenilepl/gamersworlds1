@@ -57,4 +57,4 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
  
 });
  
-client.login("NTE4MTc4MDUxMjM4OTIwMjIz.DuM-sg.wUeet7CX09iJSUqHOCjG6EVFn_I");
+client.login(process.env.BOT_TOKEN);
